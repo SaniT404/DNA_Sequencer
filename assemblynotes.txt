@@ -1,0 +1,7 @@
+for all pairs of strands(s1,s2)
+    if overlap(s1,s2) is biggest so far and overlap size >= min-overlap:
+        remember s1, s2 and s1max and s2max
+s3 = s1max merge s2max
+remove s1, s2
+add s3
+sort
